@@ -5,6 +5,7 @@
 <script src='lib/gcal.min.js'></script>
 
 <script>
+    // Google Calendar IDs
     const GCAL_ID_ASP_FORT_ROBINSON = 'sge208g8ttrfg2q2kmr8id13t4@group.calendar.google.com';
     const GCAL_ID_BENN_HSH_NORD     = 'jp81k7mimn21rnt8u0tt52cg44@group.calendar.google.com';
     const GCAL_ID_BERLINER_JUNGS    = '7jcpmr2nop4k35h79lo5513li8@group.calendar.google.com';
@@ -18,6 +19,7 @@
     const GCAL_ID_TRIALOG           = 'eugine4lsicefedpukh26nkc08@group.calendar.google.com';
     const GCAL_ID_VAV               = '66hoag456h66ad2m2jv9ng71oc@group.calendar.google.com';
 
+    // Organizer / displayed in calendar as event @ organizer
     var youthclubnames = {};
     youthclubnames[GCAL_ID_ASP_FORT_ROBINSON] = 'ASP Fort Robinson';
     youthclubnames[GCAL_ID_BENN_HSH_NORD] = 'BENN HSH Nord';
@@ -27,8 +29,10 @@
     youthclubnames[GCAL_ID_MIKADO] = 'Mikado';
     youthclubnames[GCAL_ID_OCB] = 'OCB';
     youthclubnames[GCAL_ID_SPIK] = 'SPIK';
+    youthclubnames[GCAL_ID_TRIALOG] = 'Trialog';
     youthclubnames[GCAL_ID_VAV] = 'VaV';
 
+    // Link to organizer page (.html will be added via script)
     var youthclublinks = {};
     youthclublinks[GCAL_ID_ASP_FORT_ROBINSON] = '/Jugendklubs/ASP_Fort_Robinson';
     youthclublinks[GCAL_ID_BENN_HSH_NORD] = '/Begegnungen/BENN_HSH';

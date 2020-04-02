@@ -1,4 +1,4 @@
-## 360° - Raum für Kreativität
+## Kunsthaus 360° - Raum für Kreativität
 <img id="topmedia" src="/Freizeit/Images/360Grad/logo.jpg" />
 
 ## Offen

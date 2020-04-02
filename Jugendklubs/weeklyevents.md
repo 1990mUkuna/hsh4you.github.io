@@ -40,7 +40,7 @@
             },
             locale: 'de',
             views: { 
-                listDay: { titleFormat: 'dddd Do MMMM YYYY {}' },
+                listDay: { titleFormat: 'ddd Do MMMM YYYY' },
             },
             // to cache the daily events default view is listMonth and once page is loaded will switch to listDay
             // unfortunately fullcalendar.io caching does not work for visibleRange / https://fullcalendar.io/docs/visibleRange
